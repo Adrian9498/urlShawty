@@ -1,0 +1,24 @@
+{
+  "name": "shawtyurl",
+  "version": "1.0.0",
+  "description": "An url shortner to personal use with friends",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Adrian Gutierrez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "winston": "^3.10.0"
+  }
+}
